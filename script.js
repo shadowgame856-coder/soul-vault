@@ -64,7 +64,7 @@ function accessDenied() {
     Swal.fire({
         theme: 'dark',
         title: "拒絕存取：您的權限不足！",
-        html: "<div style='text-align: left; margin: 0 70px;'>當前身分：$null<br>需要權限：院長級別 (Level 999)</div>",
+        html: "<div style='text-align: left; margin: 0 70px;'>當前身分：$null<br>需要權限：閻王級別 (Level 999)</div>",
         icon: "error",
         iconColor: "#ff0000",
         // confirmButtonColor: "#39bf14",
@@ -212,4 +212,5 @@ function updateTime() {
 }
 
 typeLine();
+
 setInterval(updateTime, 1000);
