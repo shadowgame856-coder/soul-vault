@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QING-SI | 0x7FFFFFFF-VOID-404</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="scanline"></div>
+    <main class="terminal">
+        <header>
+            <h1 class="glitch" data-text="QING-SI">QING-SI</h1>
+            <p class="status-bar">ID: 未知 | STATUS: 異常 | SLOGAN: 我要快樂，不必正常</p>
+        </header>
+
+        <section id="terminal-output">
+            </section>
+
+        <section class="license-section">
+            <div class="license-border">
+                <h3>超自然系統根目錄存取執照</h3>
+                <p>有效期限：<span class="system-time"></span></p>
+                <div class="stamp">ROOT</div>
+            </div>
+        </section>
+
+        <div class="project-links">
+            <button onclick="navToYouTube()">[ 社交障礙自動導航系統 ]</button>
+            <button onclick="showDecoder()">[ 遺言解碼工具 ]</button>
+            <button onclick="openExorcism()">[ 因果邏輯除靈 ]</button>
+            <button onclick="accessDenied()">[ 地府掛號系統併發修復方案 ]</button>
+        </div>
+
+        <!-- <div id="exorcism-modal" class="modal-overlay" style="display:none;">
+            <div class="terminal-box modal-content">
+                <h4>// 因果邏輯修補程序 v0.99</h4>
+                <p>偵測到時空因果衝突... 請輸入欲修正的事件描述：</p>
+                <input type="text" id="causal-input" placeholder="例如：為什麼我洗碗時靈球會出現？">
+                <p style="color: #ff0000; font-weight: bold;">⚠️ 警告：修復因果可能導致系統崩潰。確認要修復請按「否」。</p>
+                <div class="controls">
+                    <button onclick="closeExorcism()">是 (Yes)</button>
+                    <button onclick="startExorcism()">否 (No)</button>
+                </div>
+            </div>
+        </div> -->
+
+        <div id="decoder-zone" class="terminal-box" style="display:none; border-color: #fff;">
+            <h4>// 遺言解碼工具</h4>
+            <p>.- -. --- -.- / .-.. --- ...- . ... / ..- .-. .. .-. .. -.</p>
+            <textarea id="decoder-input" placeholder="輸入明文加密或密文解密..."></textarea>
+            <div class="controls">
+                <button onclick="processMorse(true)">加密 (Encode)</button>
+                <button onclick="processMorse(false)">解密 (Decode)</button>
+                <button onclick="closeDecoder()">[ 關閉 ]</button>
+            </div>
+            <p id="decoder-output" style="word-break: break-all; color: white;"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
