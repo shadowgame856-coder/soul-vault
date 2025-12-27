@@ -85,7 +85,7 @@ function openExorcism() {
         title: "因果邏輯修補程序 v0.99",
         html: `
             <div style="text-align: left;">偵測到時空因果衝突... <br>請輸入欲修正的事件描述：</div>
-            <input type="text" id="causal-input" class="swal2-input" placeholder="例如：用靈球洗碗"><br>
+            <input type="text" id="causal-input" class="swal2-input" placeholder="例如：用抹布靈洗碗"><br>
             <label style="color: red; font-size: 15px;">⚠️ 警告：修復因果可能導致系統崩潰。確認修復請按「否」。</label>
         `,
         icon: "warning",
@@ -214,3 +214,4 @@ function updateTime() {
 typeLine();
 
 setInterval(updateTime, 1000);
+
